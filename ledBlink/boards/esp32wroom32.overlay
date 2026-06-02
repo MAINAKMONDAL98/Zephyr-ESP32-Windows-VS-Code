@@ -1,0 +1,10 @@
+/{
+	mypins{
+		status_led: status_led{
+			gpios=<&gpio0 18 GPIO_ACTIVE_HIGH>;
+		};
+	};
+	aliases{
+		led0=&status_led;
+	};
+};
